@@ -3,8 +3,7 @@
   
 1. 創GitHub帳號 & 下載GitHub桌面版  
 2. 到主專案的GitHub頁面，右上角Fork點下去，新增主專案到自己的GitHub帳號  
-2.1. 主專案是master分支，其他帳號fork之後也會自成一個分支，所以我們六個人共會有七個分支，master分支只有當組內程式碼整合才需
-更新  
+2.1. 主專案是master分支，其他帳號fork之後也會自成一個分支，所以我們六個人共會有七個分支，fork master分支後就不會再和它有任何瓜葛了
 3. 打開GitHub桌面版，clone自己GitHub帳號的專案到本地電腦 (注意，這邊是clone自己的分支，非master分支)  
 4. 把自己打好的程式碼丟到Documents\GitHub (window預設路徑)  
 5. 打開GitHub桌面版，它會自動偵測新增或修改的檔案，按下commit送出更新到GitHub本地資料庫  
