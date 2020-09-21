@@ -1,6 +1,7 @@
 # ForkThisProject
 
-***在V1.0主程式上傳前需要做的事***   
+***在V1.0主程式上傳前需要做的事***  
+  
 1.小組成員都在自己的Oracle DB建同名同密碼的帳號  
 2.grant all privileges to userName identified by password;  
 3.寫好透過 Datasource 方式串接JDBC連線到資料庫的Servlet程式，然後建個簡單表格做新增刪除的測試   
@@ -8,8 +9,8 @@
 5.寫好抓json資料的方法，思考有沒有辦法批次新增經緯度進這些資料  
 6.if (無法批次新增）{ 尋找特定區域的活動做手動新增，demo時區域搜尋那附近的區 } 
 
-本文開始***大家一起來練習用GitHub同步小組程式碼*** 
-步驟如下: 
+***大家一起來練習用GitHub同步小組程式碼***  
+步驟如下:   
   
 1. 創GitHub帳號 & 下載GitHub桌面版  
 2. 到主專案的GitHub頁面，右上角Fork點下去，新增主專案到自己的GitHub帳號  
