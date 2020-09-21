@@ -2,7 +2,7 @@
 
 ***在V1.0主程式上傳前需要做的事***  
   
-1. 小組成員都在自己的Oracle DB建同名同密碼的帳號  
+1. 小組成員在自己的Oracle DB建同名同密碼的帳號  
 2. grant all privileges to userName identified by password;  
 3. 寫好透過 Datasource 方式串接JDBC連線到資料庫的Servlet程式，然後建個簡單表格做新增刪除的測試
 4. 每個人寫的程式碼都先開不同package放，e.g.package1、package2，然後ＷebContent下的html網頁也要在名字後面打上個人編號，方便分辨
