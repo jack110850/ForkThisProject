@@ -17,7 +17,7 @@ A. 創帳號及創造專屬個人的專案分支
 B. 打開GitHub桌面版，clone自己帳號的專案下來本地端 （簡稱下載）  
 C. 丟寫好的程式碼到GitHub本地端資料夾 （簡稱複製檔案到特定資料夾同步）  
 D. 打開GitHub桌面版，commit專案到本地虛擬資料庫再push上自己帳號的專案 （簡稱上傳）  
-E. 當專案進展到需要統合程式碼，大家再登入GitHub網站去pull request給main分支，隨後main分支會產生新版程式（簡稱合併程式碼，產生新專案）  
+E. 當專案進展到需要統合程式碼，大家再登入GitHub網站去pull request給main分支，隨後main分支會產生新版程式（簡稱合併程式碼，產生新的專案原檔）  
   
 詳細步驟如下：  
 1. 創GitHub帳號 & 下載GitHub桌面版 & 下載GitBash  
