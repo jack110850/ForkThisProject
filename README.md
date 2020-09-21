@@ -35,4 +35,7 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 7. 要整合程式碼時，每個組員登入GitHub，選擇GitHub帳號內fork的那份專案，按下pull requests  
 8. 管理員的main branch會收到很多pull requests，此時GitHub會自動比對更新檔案是否有蓋到舊的檔，如果有的話可以管理員可以審閱要留哪份，或是直接編輯衝突到的程式碼，沒問題的話merge完畢，新的專案原檔就產生了  
 9. 程式碼整合完成後，組員要取得新的專案原檔，務必做兩件事: 砍掉先前fork到自己GitHub帳號的專案 & 砍掉Documents\GitHub的專案  
-10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦  
+10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦
+  
+---------如果不想搞這麼麻煩用砍掉重建的方式更新，可以參考這篇用打指令的方式更新---------  
+---------https://gitbook.tw/chapters/github/syncing-a-fork.html---------
