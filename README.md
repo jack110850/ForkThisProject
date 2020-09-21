@@ -5,16 +5,22 @@
 1.小組成員都在自己的Oracle DB建同名同密碼的帳號  
 2.grant all privileges to userName identified by password;  
 3.寫好透過 Datasource 方式串接JDBC連線到資料庫的Servlet程式，然後建個簡單表格做新增刪除的測試   
-4.if (測試ok) { 上傳該servlet程式當V1.0的專案，大家可以下載參考研究一下怎麼去連線DB，然後銜接第一次個人專題的那些方法 }   
+4.if (測試ok) { 上傳該servlet程式當V1.0的專案，大家可以下載參考研究一下怎麼去連線DB，然後銜接第一次個人專題寫的方法 }   
 5.寫好抓json資料的方法，思考有沒有辦法批次新增經緯度進這些資料  
 6.if (無法批次新增）{ 尋找特定區域的活動做手動新增，demo時區域搜尋那附近的區 } 
 
-***大家一起來練習用GitHub同步小組程式碼***  
-步驟如下:   
+***大家一起來練習用GitHub同步小組程式碼***   
   
-1. 創GitHub帳號 & 下載GitHub桌面版  
+先講解大方向：  
+四個階段
+A. 創帳號及創造專屬個人的專案分支
+B. 
+C.
+D.
+  
+1. 創GitHub帳號 & 下載GitHub桌面版 & 下載GitBash  
 2. 到主專案的GitHub頁面，右上角Fork點下去，新增主專案到自己的GitHub帳號  
-2.1. 主專案是master分支，其他帳號fork之後也會自成一個分支，所以我們六個人共會有七個分支。後面講到的更新，指的是fork到自己帳號內的那份分支，而非master分支。
+2.1. 主專案是main分支，其他帳號fork之後也會自成一個分支，所以我們六個人共會有七個分支。後面講到的更新，指的是fork到自己帳號內的那份分支，而非master分支。
 3. 打開GitHub桌面版，clone自己GitHub帳號的專案到本地電腦 (注意，這邊是clone自己的分支，非master分支，非常容易出錯要小心)  
 4. 把自己打好的程式碼丟到Documents\GitHub (window預設路徑)  
 5. 打開GitHub桌面版，它會自動偵測新增或修改的檔案，按下commit送出更新到GitHub本地資料庫  
