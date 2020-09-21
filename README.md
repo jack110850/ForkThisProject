@@ -37,5 +37,5 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 9. 程式碼整合完成後，組員要取得新的專案原檔，務必做兩件事: 砍掉先前fork到自己GitHub帳號的專案 & 砍掉Documents\GitHub的專案  
 10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦
   
----------如果不想搞這麼麻煩用砍掉重建的方式更新，可以參考這篇用打指令的方式更新---------  
----------https://gitbook.tw/chapters/github/syncing-a-fork.html---------
+***如果不想搞這麼麻煩用砍掉重建的方式更新，可以參考這篇用打指令的方式更新***   
+https://gitbook.tw/chapters/github/syncing-a-fork.html
