@@ -15,4 +15,4 @@
 7. 當組內要整合程式碼時，每個組員登入GitHub，選擇GitHub帳號內fork的那個專案，按下pull requests  
 8. 管理員的master branch會收到很多pull requests，此時GitHub會自動比對更新檔案是否有蓋到舊的檔，如果有的話可以管理員可以審閱要留哪份，或是直接編輯衝突到的程式碼  
 9. 程式碼整合完成後，組員要取得最新版的程式碼，務必做兩件事: 砍掉先前fork到自己GitHub帳號的專案 & 砍掉Documents\GitHub的專案  
-10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號並下載到本地電腦
+10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦
