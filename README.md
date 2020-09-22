@@ -1,6 +1,8 @@
 # ForkThisProject
 
+  
 ***在V1.0主程式上傳前需要做的事***  
+
   
 1. 小組成員在自己的Oracle DB建同名同密碼的帳號  
 2. grant all privileges to userName identified by password;  
@@ -10,7 +12,9 @@
 6. 寫好抓json資料的方法，思考有沒有辦法批次新增經緯度進這些資料  
 7. if (無法批次新增）{ 尋找特定區域的活動做手動新增，demo時區域搜尋那附近的區 } 
 
+  
 ***大家一起練習用GitHub同步小組程式碼***   
+
   
 簡略地講只需要做下面五件事：    
 A.  創帳號及創造專屬個人的專案分支  
@@ -36,8 +40,11 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 8. 管理員的main branch會收到很多pull requests，此時GitHub會自動比對更新檔案是否有蓋到舊的檔，如果有的話可以管理員可以審閱要留哪份，或是直接編輯衝突到的程式碼，沒問題的話merge完畢，新的專案原檔就產生了，可以在專案內readme新增版本號，方便大家確認更新到最新版的程式碼
 9. 程式碼整合完成後，組員要取得新的專案原檔，務必做兩件事: 砍掉先前fork到自己GitHub帳號的專案 & 砍掉Documents\GitHub的專案  
 10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦
+
   
 ***如果不想用砍掉重建的方式更新，可以參考以下用打指令的方式更新***   
+  
+  
 1. git remote add upstream "專案原檔的GitHub連結.git"  
 //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭    
 2. git fetch upstream  
@@ -45,8 +52,11 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 4. git push origin main  
 //push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
 參考資料：https://gitbook.tw/chapters/github/syncing-a-fork.html    
+
   
 ***放專案原檔的帳號如何在自己的帳號內部fork一個分支出來***  
+  
+    
 1. git remote add upstream "專案原檔的GitHub連結.git"  
 //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭  
 2. git pull upstream main --allow-unrelated-histories  
