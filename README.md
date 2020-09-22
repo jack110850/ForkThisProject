@@ -5,7 +5,7 @@
 
   
 1. 小組成員在自己的Oracle DB建同名同密碼的帳號  
-2. grant all privileges to userName identified by password;  
+2. grant all privileges to GROUP4 identified by oracle;  
 3. 寫好透過 Datasource 方式串接JDBC連線到資料庫的Servlet程式，然後建個簡單表格做新增刪除的測試
 4. 每個人寫的程式碼都先開不同package放，e.g. package1、package2，然後ＷebContent下的html網頁也要在名字後面打上個人編號，方便分辨
 5. if (測試ok) { 上傳該servlet程式當V1.0的專案，大家可以下載參考研究一下怎麼去連線DB，然後銜接第一次個人專題寫的方法 }   
