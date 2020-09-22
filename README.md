@@ -24,7 +24,7 @@ D.  打開GitHub桌面版，commit專案到本地虛擬資料庫，再push上自
 E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull request給main分支，隨後main分支會產生新版程式（簡稱合併程式碼並產生新的專案原檔）  
   
 詳細步驟如下：  
-1. 創GitHub帳號 & 下載GitHub桌面版 & 下載GitBash（Ｍac的話用內建終端機即可） 
+1. 創GitHub帳號 & 下載GitHub桌面版  
 2. 到主專案的GitHub頁面，右上角Fork點下去，新增主專案到自己的GitHub帳號   
 （備註）專案原檔放在main分支，其他帳號fork之後會自成一個分支，所以我們六個人加上原檔總共會有七個分支。後面講到的更新，指的都是更新自己帳號內的分支，而非main分支。
 3. 打開GitHub桌面版，clone自己GitHub帳號的專案到本地電腦   
@@ -44,7 +44,7 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
   
 ***如果不想用砍掉重建的方式更新，可以參考以下用打指令的方式更新***   
   
-  
+0. 下載GitBash（Ｍac的話用內建終端機即可）  
 1. git remote add upstream "專案原檔的GitHub連結.git"  
 //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭    
 2. git fetch upstream  
