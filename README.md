@@ -38,14 +38,21 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 10. 接著，同第2步和第3步，重新fork主專案到自己的GitHub帳號，並clone自己GitHub帳號的專案到本地電腦
   
 ***如果不想用砍掉重建的方式更新，可以參考以下用打指令的方式更新***   
-1. git remote add upstream "專案原檔的GitHub連結.git"      //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭    
+1. git remote add upstream "專案原檔的GitHub連結.git"  
+//upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭    
 2. git fetch upstream  
 3. git merge upstream/main  
-4. git push origin main      //push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作    
-參考資料：https://gitbook.tw/chapters/github/syncing-a-fork.html  
+4. git push origin main  
+//push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
+參考資料：https://gitbook.tw/chapters/github/syncing-a-fork.html    
   
 ***放專案原檔的帳號如何在自己的帳號內部fork一個分支出來***  
-1. git remote add upstream "專案原檔的GitHub連結.git"      //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭          
-2. git pull upstream main --allow-unrelated-histories      //允許無關歷史，因為兩個repo間原先無關連，這動作等同前述的git fetch + git merge  
-3. git push origin main      //push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
-4. git push upstream main      //push更新自己帳號的專案原檔，這個動作等組內需要整合原始碼再做，平常不要打  
+1. git remote add upstream "專案原檔的GitHub連結.git"  
+//upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭  
+2. git pull upstream main --allow-unrelated-histories  
+//允許無關歷史，因為兩個repo間原先無關連，這動作等同前述的git fetch + git merge  
+3. git push origin main  
+//push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
+4. git push upstream main      
+//push更新自己帳號的專案原檔，這個動作等組內需要整合原始碼再做，平常不要打  
+參考資料：https://deanmalone.net/post/how-to-fork-your-own-repo-on-github/  
