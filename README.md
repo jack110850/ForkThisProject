@@ -54,5 +54,5 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 3. git push origin main  
 //push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
 4. git push upstream main  
-//push更新自己帳號的專案原檔，這個動作等組內需要整合原始碼再做，平常不要打  
+//push更新自己帳號的專案原檔，這個動作等組內需要整合原始碼再做，平常絕對不能做，以防破壞原始檔完整性  
 參考資料：https://deanmalone.net/post/how-to-fork-your-own-repo-on-github/  
