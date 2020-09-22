@@ -61,8 +61,9 @@ E.  當專案進展到需要統合程式碼，大家再登入GitHub網站去pull
 //upstream是自定義名稱，這邊取上游方便記憶它是分支的源頭  
 2. git pull upstream main --allow-unrelated-histories  
 //允許無關歷史，因為兩個repo間原先無關連，這動作等同前述的git fetch + git merge  
-3. git push origin main  
+3. 如果出現要求填寫merge理由，先按i，再輸入內容，再按esc，輸入:wq+enter離開  
+4. git push origin main  
 //push更新自己帳號的分支專案，也可以用GitHub桌面版執行此動作  
-4. git push upstream main  
+5. git push upstream main  
 //push更新自己帳號的專案原檔，這個動作等組內需要整合原始碼再做，平常絕對不能做，以防破壞原始檔完整性  
 參考資料：https://deanmalone.net/post/how-to-fork-your-own-repo-on-github/  
